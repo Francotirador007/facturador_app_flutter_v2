@@ -1,0 +1,40 @@
+name: facturador_app
+description: App de facturación electrónica completa - TecnoRed Perú
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # HTTP
+  http: ^1.2.0
+  # Token seguro
+  flutter_secure_storage: ^9.0.0
+  # PDF y archivos
+  path_provider: ^2.1.2
+  open_filex: ^4.3.4
+  # Compartir (WhatsApp, email, etc.)
+  share_plus: ^7.2.1
+  # URL launcher (abrir WhatsApp)
+  url_launcher: ^6.2.5
+  # Permisos
+  permission_handler: ^11.3.0
+  # Fuentes
+  google_fonts: ^6.1.0
+  # Íconos extra
+  cupertino_icons: ^1.0.6
+  # Formateo de fechas
+  intl: ^0.19.0
+  # Imágenes de red
+  cached_network_image: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
